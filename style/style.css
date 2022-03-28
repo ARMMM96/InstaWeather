@@ -87,6 +87,18 @@ body {
     border-bottom: 1px solid;
     margin-top: -1px;
 }
-.selection{
-    margin-top:40px;
+
+.downDevider {
+    border-bottom: 1px solid;
+    margin-top:40px ;
+}
+
+.selection {
+    margin-top: 40px;
+}
+
+.selection div {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
 }
