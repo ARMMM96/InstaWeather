@@ -16,17 +16,69 @@ body {
 }
 
 .fahrenheit {
-    text-align: right;
+    text-align: center;
     padding: 0;
+    width: 76px;
+    height: 48px;
+    border-left: #fff 2px solid;
     font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.247);
 }
 
 .celsius {
-    text-align: right;
+    text-align: center;
     padding: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#body {
+    margin: 10%;
+}
+
+.city {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.degree {
+    font-size: 144px;
+}
+
+.smallestDegree {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.summary {
     font-size: 24px;
 }
 
-#body{
-    margin: 10%;
+.current-icon {
+    margin-left: 3px;
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+.hourly {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+.daily {
+    font-size: 22px;
 }
