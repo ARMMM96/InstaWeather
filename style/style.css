@@ -73,7 +73,7 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 22px;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
     margin-right: 10px;
     padding-bottom: 10px;
 
@@ -81,4 +81,12 @@ body {
 
 .daily {
     font-size: 22px;
+}
+
+.devider {
+    border-bottom: 1px solid;
+    margin-top: -1px;
+}
+.selection{
+    margin-top:40px;
 }
